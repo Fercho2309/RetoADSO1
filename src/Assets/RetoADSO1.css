@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    display: grid;
+    height: 100%;
+    width: 100%;
+    place-items: center;
+    background: black;
+}
+
+.title {
+    width: 75%;
+    text-align: center;
+    margin: 20px;
+    margin-left: 150px;
+    font-size: 45px;
+    font-weight: bold;
+    color: #e91e63;
+}
+
+fieldset {
+    width: 55%;
+    height: 100%;
+    margin-left: 300px;
+    padding: 10px 30px 50px 30px;
+    font-weight: bold;
+    border-color: #03a9f4;
+    color: white;
+}
+
+legend {
+    font-size: 24px;
+}
+
+.ingreso {
+    height: 50%;
+    margin-top: 20px;
+    padding-top: 30px;
+    font-size: 17px;
+    text-align: center;
+}
+
+.ingreso label {
+    margin-left: 50px;
+    margin-right: 10px;
+}
+
+.ingreso input {
+    padding-left: 5px;
+    border-radius: 10px;
+    /*Outline: Contorno*/
+    outline: none;
+    font-size: 17px;
+    border: 1px solid lightgrey;
+}
+
+button {
+    color: black;
+    background: #e91e63;
+    font-size: 21px;
+    font-weight: bold;
+    border-radius: 10px;
+    margin: 100px 0px 100px 320px;
+    padding: 10px 30px;   
+}
+
+button:hover {
+    cursor: pointer;
+    background: white;
+}
+
+
